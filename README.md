@@ -27,9 +27,14 @@ Kode tersebut merupakan sebuah fungsi atau metode di dalam Java (khususnya pada 
 <img width="203" height="45" alt="image" src="https://github.com/user-attachments/assets/6f3a44cf-45b8-48a0-b3fb-25f943be59c1" />
 
 1. KendaraanDAO.java | Class ini bertanggung jawab penuh atas segala operasi database yang berkaitan dengan tabel kendaraan.
-   getAllKendaraan() : Mengambil seluruh data kendaraan dari database menggunakan perintah SELECT * FROM kendaraan, lalu mengubah baris data (ResultSet) tersebut kembali menjadi objek Java berupa list Kendaraan (MobilPenumpang atau MobilAngkutan).
+   g
+   etAllKendaraan() : Mengambil seluruh data kendaraan dari database menggunakan perintah SELECT * FROM kendaraan, lalu mengubah baris data (ResultSet) tersebut kembali menjadi objek Java berupa list Kendaraan (MobilPenumpang atau MobilAngkutan).
+
    getById(String idMobil): Mencari data kendaraan spesifik berdasarkan ID mobil menggunakan PreparedStatement dengan parameter tanda tanya (?) untuk mencegah risiko SQL Injection.
-2. TransaksiDAO.java |  Class ini berfokus pada pengelolaan tabel transaksi_sewa.
+3. TransaksiDAO.java |  Class ini berfokus pada pengelolaan tabel transaksi_sewa.
+
    getAllTransaksi(): Mengambil daftar riwayat transaksi penyewaan mobil dari database.
-   insertTransaksi(TransaksiSewa transaksi): Menyimpan data transaksi baru ke database menggunakan query INSERT INTO dengan PreparedStatement untuk mengisi data penyewa, ID mobil, lama sewa, dan total biaya secara aman.
+   insertTransaksi(TransaksiSewa transaksi): Menyimpan data transaksi baru ke database menggunakan query INSERT INTO dengan
+
+   PreparedStatement untuk mengisi data penyewa, ID mobil, lama sewa, dan total biaya secara aman.
   
