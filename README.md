@@ -56,4 +56,20 @@ Ini adalah hasil dari Dummy Data di tabel kendaraan
 
 <img width="915" height="207" alt="image" src="https://github.com/user-attachments/assets/b115d498-3149-4255-8ea3-e1693bdff717" />
 Kalau yang ini adalah Dummy Data dari tabel transaksi_sewa.
+
+---
+
+## Alur Program
+
+<img width="530" height="121" alt="image" src="https://github.com/user-attachments/assets/f4a1d4aa-3406-480d-8380-44a9f0eaf02c" />
+Ini adalah menu pertama yaitu mekihat daftar mobil, njika ingin menambah stok mobil bisa melalui SQL, karena Data kendaraan berfungsi sebagai master data (data referensi atau inventaris tetap), sedangkan sistem dirancang untuk berfokus pada alur transaksi penyewaan. Data referensi semacam ini umumnya disiapkan di awal melalui skrip SQL.
+
+<img width="452" height="110" alt="image" src="https://github.com/user-attachments/assets/d6de793b-6b20-48f7-8f45-4c6f9b5a767c" />
+Ini adalah menu kedua yaitu melihat data yang tersimpan di database.
+
+<img width="1020" height="336" alt="image" src="https://github.com/user-attachments/assets/91b48d09-47d1-4e0c-bb5f-2acc8d078f7a" />
+Ini adalah menu ketiga yaitu Tambah Transaksi, dengan memasukkan nama, id mobil, dan lama sewa.
+
+<img width="623" height="119" alt="image" src="https://github.com/user-attachments/assets/40f2a621-02cd-4096-be5f-7f713c10de9d" />
+Dan ketika saya cek di Phpmyadmin nya, berhasil datanya tertambah seperti di gambar.
   
