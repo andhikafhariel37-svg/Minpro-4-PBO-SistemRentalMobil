@@ -34,7 +34,7 @@ Kode tersebut merupakan sebuah fungsi atau metode di dalam Java (khususnya pada 
 3. TransaksiDAO.java |  Class ini berfokus pada pengelolaan tabel transaksi_sewa.
 
    getAllTransaksi(): Mengambil daftar riwayat transaksi penyewaan mobil dari database.
-   insertTransaksi(TransaksiSewa transaksi): Menyimpan data transaksi baru ke database menggunakan query INSERT INTO dengan
 
+   insertTransaksi(TransaksiSewa transaksi): Menyimpan data transaksi baru ke database menggunakan query INSERT INTO dengan
    PreparedStatement untuk mengisi data penyewa, ID mobil, lama sewa, dan total biaya secara aman.
   
